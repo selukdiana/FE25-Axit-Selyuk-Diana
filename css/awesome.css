@@ -1,7 +1,5 @@
-.awesome__text p {
-  color: #86878b;
-}
-.awesome__text {
+
+.text {
   margin-bottom: 90px;
 }
 .awesome__cards-row {
@@ -12,7 +10,6 @@
 }
 .awesome__card {
   width: 350px;
-  padding: 2px;
   margin: 0 15px;
 }
 

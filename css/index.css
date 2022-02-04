@@ -1,6 +1,6 @@
 @import url('awesome.css');
 @import url('cdn.css');
-
+@import url('pricing.css');
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@ html {
 }
 
 section {
-  padding: 80px 0 0;
+  padding: 80px 0;
 }
 
 .title {
@@ -44,4 +44,9 @@ p {
   text-align: center;
   font-weight: normal;
   font-size: 14px;
+}
+.text p {
+  color: #86878b;
+  max-width: 780px;
+  margin: auto;
 }
