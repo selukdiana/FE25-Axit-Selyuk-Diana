@@ -1,29 +1,29 @@
 .pricing {
   background-color: rgba(245, 245, 245, 1);
-  margin: 0 -15px;
 }
 .pricing__tickets-row {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 0 -15px;
 }
 .pricng__ticket {
   width: 340px;
   text-align: center;
   margin: 0 15px;
 }
-.ticket__name {
+.ticket__options-name {
   font-weight: 700;
   font-size: 20px;
   padding: 12px 0;
 }
-.ticket__price {
+.ticket__options-price {
   font-weight: 700;
   font-family: 'Raleway', sans-serif;
   font-size: 35px;
   padding: 30px 0;
 }
-.ticket__description {
+.ticket__options-description {
   font-weight: 600;
   font-size: 14px;
   padding: 15px 0;
@@ -35,6 +35,7 @@
   font-weight: 400;
   font-size: 14px;
   padding: 10px 0;
+  
 }
 
 .dark-colored {
@@ -43,12 +44,6 @@
 }
 .light-colored {
   background-color: rgba(255, 255, 255, 1);
-}
-.gray-text {
-  color: rgba(134, 135, 139, 1);
-}
-.white-text {
-  color: rgba(255, 255, 255, 1);
 }
 #pricing__text {
   margin-bottom: 60px;

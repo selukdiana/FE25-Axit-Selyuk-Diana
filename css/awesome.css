@@ -4,9 +4,9 @@
 }
 .awesome__cards-row {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 -15px;
-  /*flex-flow: row wrap;*/
+  flex-flow: row wrap;
 }
 .awesome__card {
   width: 350px;
@@ -35,7 +35,7 @@
   color: rgba(51, 51, 51, 1);
 }
 .card__text {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 14px;
   text-align: center;
   color: #000000;

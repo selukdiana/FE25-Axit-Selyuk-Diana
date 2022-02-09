@@ -1,6 +1,8 @@
 @import url('awesome.css');
 @import url('cdn.css');
 @import url('pricing.css');
+@import url('customers.css');
+@import url('axure.css');
 * {
   margin: 0;
   padding: 0;
@@ -40,13 +42,18 @@ section {
   display: block;
   margin: 34px auto;
 }
-p {
-  text-align: center;
-  font-weight: normal;
-  font-size: 14px;
-}
+
 .text p {
   color: #86878b;
   max-width: 780px;
   margin: auto;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+.gray-text {
+  color: rgba(134, 135, 139, 1);
+}
+.white-text {
+  color: rgba(255, 255, 255, 1);
 }
