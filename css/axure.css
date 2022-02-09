@@ -1,0 +1,15 @@
+.axure{
+  background: url('../imgs/axure/mask.svg'), url('../imgs/axure/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#axure__title{
+  color:rgba(255, 255, 255, 1);
+}
+#axure__title::after{
+  background: rgba(255, 255, 255, 1);
+}
+#axure__text{
+  color:rgba(255, 255, 255, 0.8);
+}
