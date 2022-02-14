@@ -1,0 +1,35 @@
+.footer {
+  padding: 30px 0 15px;
+  background: rgba(0, 0, 0, 1);
+}
+.footer nav{
+  margin-bottom: 18px;
+}
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+  width: 317px;
+  margin: auto;
+}
+.footer__list-item{
+  transition: 0.5s;
+}
+.footer__list-item a {
+  color: rgba(134, 135, 139, 1);
+  font-family: 'Font Awesome 5 Free';
+  font-size: 23px;
+  font-weight: 400;
+}
+.footer__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer__list-item:hover{
+  transform: rotate(-20deg) scale(1.1) translateY(-10%);
+}
+.footer__list-item:hover a{
+  color:rgba(236, 121, 121, 1);
+}

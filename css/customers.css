@@ -15,6 +15,7 @@
   position: relative;
   margin-bottom: 22px;
 }
+
 .customers__feedback__comment::after {
   content: '';
   display: block;
@@ -27,19 +28,25 @@
   right: 77%;
   top: 100%;
 }
+
 .customers__feedback__user {
   width: 212px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
 }
-
-.customers__feedback__user-img img {
-  width: 70px;
+.customers__feedback__user-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 70px;
-  display: block;
-  object-fit: cover;
+  width: 70px;
   border-radius: 50%;
+  overflow: hidden;
+}
+.customers__feedback__user-img img {
+  height: 100%;
+  display: block;
 }
 .customers__feedback__user-data {
   width: 97px;

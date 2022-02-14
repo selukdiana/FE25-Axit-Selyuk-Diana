@@ -1,15 +1,28 @@
-.axure{
-  background: url('../imgs/axure/mask.svg'), url('../imgs/axure/background.png');
+.axure {
+  background: url('../imgs/axure/background.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
-#axure__title{
-  color:rgba(255, 255, 255, 1);
+
+.axure::after {
+  content: ' ';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
-#axure__title::after{
+
+#axure__title {
+  color: rgba(255, 255, 255, 1);
+}
+#axure__title::after {
   background: rgba(255, 255, 255, 1);
 }
-#axure__text{
-  color:rgba(255, 255, 255, 0.8);
+#axure__text {
+  color: rgba(255, 255, 255, 0.8);
 }
