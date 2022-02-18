@@ -1,0 +1,34 @@
+.contact-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  align-items: flex-end;
+  height: 230px;
+}
+.contact-row__left,
+.contact-row__right {
+  width: 40%;
+  height: 100%;
+}
+
+.contact-row__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-row__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.message-item textarea {
+  resize: none;
+  height: 200px;
+}
+
+.contact-btn {
+  display: block;
+  margin: auto;
+}

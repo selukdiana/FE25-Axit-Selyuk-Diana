@@ -6,6 +6,10 @@
 @import url('header.css');
 @import url('social.css');
 @import url('footer.css');
+@import url('firstscreen.css');
+@import url('tabs.css');
+@import url('contact.css');
+
 * {
   margin: 0;
   padding: 0;
@@ -37,7 +41,7 @@ section {
   max-width: 668px;
   margin: auto;
   text-align: center;
-  font-family: 'Rawesome', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 .title::after {
   content: ' ';
@@ -49,7 +53,7 @@ section {
 }
 
 .text p {
-  color: #86878b;
+  color: rgb(134, 135, 139);
   max-width: 780px;
   margin: auto;
   font-weight: 400;
@@ -81,7 +85,7 @@ section {
   background-color: rgba(236, 121, 121, 1);
   transform: translateY(-10%) scale(1.1);
   color: rgb(57, 57, 58);
-  border-color: rgb(57, 57, 58);
+  border: 1px solid transparent;
 }
 .transparent-btn:active {
   background-color: rgb(199, 102, 102);
@@ -89,13 +93,22 @@ section {
   color: rgb(57, 57, 58);
   border-color: rgb(57, 57, 58);
 }
-
+.colored-btn {
+  background-color: rgba(236, 121, 121, 1);
+  width: 135px;
+  height: 42px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+}
 .logo {
   text-transform: uppercase;
-  font-family: 'Raleway', sans-serif;
   color: rgba(255, 255, 255, 1);
   position: relative;
-  width: 68px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .logo::after {
@@ -103,7 +116,7 @@ section {
   text-transform: uppercase;
   color: rgba(236, 121, 121, 1);
   position: absolute;
-  left: 60%;
+  left: 100%;
   font-family: 'Raleway', sans-serif;
 }
 .nav {
@@ -111,4 +124,19 @@ section {
   justify-content: space-between;
   align-items: center;
   margin: 0 15px;
+}
+.form__label {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(189, 189, 189, 1);
+  line-height: 19px;
+}
+.form__input {
+  display: block;
+  border: none;
+  border-bottom: 2px solid rgba(189, 189, 189, 1);
+  width: 100%;
+  padding: 3px;
+  outline: none;
 }

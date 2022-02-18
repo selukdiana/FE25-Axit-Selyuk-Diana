@@ -1,7 +1,6 @@
 #header__logo {
   font-size: 30px;
   font-weight: 400;
-  margin: 0 15px;
 }
 
 .header {
@@ -12,12 +11,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 -15px;
   flex-wrap: wrap;
 }
 
 .nav__list {
-  width: 320px;
+  width: 500px;
   display: flex;
   justify-content: space-between;
 }
