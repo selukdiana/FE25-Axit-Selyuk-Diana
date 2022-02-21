@@ -11,6 +11,11 @@
   width: 340px;
   text-align: center;
   margin: 0 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.pricng__ticket:hover{
+  transform: translateY(-5%);
 }
 .ticket__options-name {
   font-weight: 700;

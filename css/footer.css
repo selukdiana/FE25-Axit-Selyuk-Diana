@@ -27,9 +27,6 @@
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
 }
-.footer__list-item:hover{
+.footer__list-item:hover i{
   transform: rotate(-20deg) scale(1.1) translateY(-10%);
-}
-.footer__list-item:hover a{
-  color:rgba(236, 121, 121, 1);
 }

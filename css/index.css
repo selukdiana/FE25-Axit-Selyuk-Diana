@@ -87,12 +87,7 @@ section {
   color: rgb(57, 57, 58);
   border: 1px solid transparent;
 }
-.transparent-btn:active {
-  background-color: rgb(199, 102, 102);
-  transform: translateY(-20%) scale(1);
-  color: rgb(57, 57, 58);
-  border-color: rgb(57, 57, 58);
-}
+
 .colored-btn {
   background-color: rgba(236, 121, 121, 1);
   width: 135px;
@@ -103,6 +98,13 @@ section {
   border: none;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
+  transition: 0.5s;
+}
+.colored-btn:hover {
+  background-color: transparent;
+  transform: translateY(-10%) scale(1.1);
+  color: rgba(236, 121, 121, 1);
+  border: 1px solid rgba(236, 121, 121, 1);
 }
 .logo {
   text-transform: uppercase;
@@ -139,4 +141,33 @@ section {
   width: 100%;
   padding: 3px;
   outline: none;
+}
+
+.fa-facebook-f:hover{
+  color: rgb(0, 0, 201);
+}
+.fa-twitter:hover{
+  color: rgb(137, 137, 255);
+}
+.fa-google-plus-g:hover{
+  color: rgb(153, 1, 1);
+}
+.fa-pinterest:hover{
+  color: rgb(110, 0, 0);
+}
+.fa-instagram:hover{
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-vk:hover{
+  color: rgb(21, 21, 216);
+}
+.fa-snapchat:hover{
+  color: rgb(253, 231, 36);
+}
+
+.fab{
+  transition: 0.5s;
 }

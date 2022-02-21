@@ -39,23 +39,15 @@
   font-weight: 900;
   display: inline-block;
   color: rgb(233, 213, 213);
-  transition: 0.5s;
 }
 
-.social__list-item a {
+.social__list-item i{
   color: rgba(134, 135, 139, 0.5);
 }
 
-.social__list-item:hover a {
-  color: rgba(134, 135, 139, 0.9);
+.social__list-item:hover i {
   text-shadow: 14px 11px 5px rgba(150, 150, 150, 1);
-}
-.social__list-item:hover {
   transform: translateY(-10%);
 }
-.social__list-item:active {
-  transform: translateY(-20%) scale(1.1) rotate(10deg);
-}
-.social__list-item:active a {
-  color: rgba(134, 135, 139, 1);
-}
+
+
